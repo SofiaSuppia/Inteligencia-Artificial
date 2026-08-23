@@ -1,10 +1,10 @@
 # Inteligencia Artificial
 
-> Material de la asignatura **Inteligencia Artificial**.
+> Repositorio personal de estudio y práctica de **Inteligencia Artificial**.
 
 ## Sobre este repositorio
 
-Acá se publica el material práctico de la cursada: ejercicios, ejemplos de código y recursos en Python. El contenido se organiza en carpetas numeradas (`00_...`, `01_...`, etc.), una por unidad temática, y se va publicando de forma incremental a medida que avanza la cursada.
+Acá voy reuniendo ejercicios, notebooks, ejemplos de código y recursos en Python que uso para practicar y ordenar el material de la materia. El contenido está organizado en carpetas numeradas (`00_...`, `01_...`, etc.), una por unidad temática, y se puede ir ampliando a medida que avance el estudio.
 
 ## Contenido publicado
 
@@ -18,10 +18,10 @@ Acá se publica el material práctico de la cursada: ejercicios, ejemplos de có
 
 ## Organización del repositorio (branches y tags)
 
-- Todo el material vive en la rama `master`. No hay otras ramas de desarrollo: alumnos y docentes trabajan sobre `master`.
-- Durante la cursada, el contenido se actualiza sobre `master` a medida que se dictan las clases. Para tener siempre el material al día, hace `git pull` periódicamente.
-- Al finalizar cada cohorte se crea un **tag** (por ejemplo `2025`, `2026`) que congela el estado del repositorio para esa cursada. Así, aunque el contenido de `master` siga evolucionando en años siguientes, cada cohorte conserva una referencia fija a lo que efectivamente se dictó en su año.
-- Si sos de una cohorte anterior y querés ver el material tal como se dictó en tu momento, ubicate en el tag correspondiente:
+- Todo el material vive en la rama `master`. No hay otras ramas de desarrollo: el material se mantiene allí de forma centralizada.
+- A medida que agregue nuevo contenido, se pueden ir actualizando los notebooks y recursos sobre `master`. Para tener todo al día, hace `git pull` periódicamente.
+- Si quiero congelar una versión del estado del repositorio en un momento dado, puedo crear un **tag** (por ejemplo `v1.0`, `2026`). Así queda una referencia fija del material en ese punto.
+- Si quiero volver a un tag anterior, ubicarme en el estado correspondiente:
 
   ```bash
   git fetch --tags
@@ -54,8 +54,8 @@ No hace falta tener Python instalado de antemano: uv descarga la versión que le
 ### 2. Clonar el repositorio
 
 ```bash
-git clone https://github.com/halexisgonzalez/inteligencia-artificial.git
-cd inteligencia-artificial
+git clone https://github.com/SofiaSuppia/Inteligencia-Artificial.git
+cd Inteligencia-Artificial
 ```
 
 ### 3. Crear el entorno virtual
@@ -153,13 +153,9 @@ El editor puede seguir usando otro intérprete de Python. Con la notebook o un `
 - [*Python Data Science Handbook*](https://jakevdp.github.io/PythonDataScienceHandbook/) — Jake VanderPlas
 - *The Elements of Statistical Learning* — Trevor Hastie et al. (Ed. Springer)
 
-## Docente
-
-- **Ing. Alexis González**
-
 ## Contacto
 
-Para consultas sobre la cursada, usar los canales oficiales de la materia.
+Para consultas o mejoras, usar los issues del repositorio o el canal que prefiera usar para este proyecto.
 
 ## Licencia
 
@@ -167,4 +163,4 @@ Este material está bajo una licencia [Creative Commons Atribución-NoComercial-
 
 ---
 
-**¡Bienvenidos a Inteligencia Artificial!**
+**Notas personales de Inteligencia Artificial.**
